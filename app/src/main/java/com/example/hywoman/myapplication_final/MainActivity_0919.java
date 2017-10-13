@@ -21,16 +21,16 @@ public class MainActivity_0919 extends AppCompatActivity {
         setContentView(R.layout.activity_main_0919);
         Log.i("TAG", "HYUW on Create");
 
-        //start라는 버튼을 누르면 "Hello띄우기"
-       // final Button button = (Button) findViewById(R.id.Start);
-        //button.setOnClickListener(
-          //      new Button.OnClickListener() {
-        //            public void onClick(View v) {
-          //              TextView textView = (TextView) findViewById(R.id.TextView);
-          //              textView.setText("Hello");
-         //           }
+      //start라는 버튼을 누르면 "Hello띄우기"
+      final Button button = (Button) findViewById(R.id.Start);
+        button.setOnClickListener(
+            new Button.OnClickListener() {
+                   public void onClick(View v) {
+                     TextView textView = (TextView) findViewById(R.id.TextView);
+                      textView.setText("Hello");
+                }
 
-       //         });
+            });
         //intend를 사용하여 장면전환
 
     }

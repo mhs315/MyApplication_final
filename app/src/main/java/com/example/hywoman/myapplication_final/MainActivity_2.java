@@ -17,17 +17,17 @@ public class MainActivity_2 extends AppCompatActivity {
         setContentView(R.layout.activity_main_2);
     }
 
-    //public void onClick(View v) {
-        //TextView aa = (TextView) findViewById(R.id.TextView);
+    public void onClick(View v) {
+        TextView aa = (TextView) findViewById(R.id.TextView);
 
-        //TextView bb = (TextView) findViewById(R.id.TextView);
-        //bb.setText((aa.getText()));
+        TextView bb = (TextView) findViewById(R.id.TextView);
+        bb.setText((aa.getText()));
 
-       // Button cc = (Button) findViewById(R.id.button2);
+        Button cc = (Button) findViewById(R.id.button2);
 
 
 
-    //}
+    }
 
     public void secondAct(View v) {
         Intent i = new Intent(this, MainActivity_3.class);
